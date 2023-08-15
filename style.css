@@ -10,8 +10,10 @@ input {width: 100%; max-width: 300px; padding: 0 5px;}
 .myPlansList {width: 100%; display: flex; justify-content: space-between; padding: 5px; border:  3px solid red; text-align: center; margin-bottom: 5px;}
 .myPlansList img {width: 20px; height: 20px;}
 .myPlansList span {cursor: pointer;}
+#emptyPlan{font-size: 30px;}
 .numbers {width: 5%;}
-.plans {width: 60%;}
+.numbers:hover {cursor:crosshair;}
+.plans {width: 60%; cursor: pointer; word-wrap: break-word;}
 .trash {width: 10%; }
 
 [data-status='completed']{text-decoration:line-through;}
